@@ -1,0 +1,242 @@
+li{
+list-style: none;
+}
+
+.header{
+background: -webkit-linear-gradient(right, salmon, orange 100%);
+height: 80px;
+margin: auto;
+width: 85%;
+border-radius: 20px;
+}
+
+.header-logo{
+float:left;
+padding: 10px 20px;		
+}
+
+.header-logo img{
+height: 60px;
+weight: 200px;
+}
+
+.header-list li{
+float:right;
+padding: 33px 20px;
+}
+
+.header-list a {
+text-decoration: none;
+color:#fff;
+}
+
+.header-list a:hover {
+color:#000;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+text-align: center;
+width: 100px;
+box-shadow: 0px 8px 100px 0px rgba(0,0,0,0.2);
+padding: 5px 5px;
+border-radius: 5px;
+background: -webkit-linear-gradient(right, salmon , orange 100%);
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown-content li{
+height: 1px;
+margin: auto;
+width: 85%;
+}
+
+.main{
+height: 600px;
+background-size: 1350px 601px;
+background-image: url("images/02.gif");
+background-repeat: no-repeat;
+padding: 0.1px 0;
+}
+
+.copy-container h1{
+font-family: Calibri;
+font-size:100px;
+color:#fff	;
+text-align:center;	
+}
+
+.copy-container h2{
+font-family: Arial;
+font-size:25px;
+color:#fff;
+text-align:center;
+}
+
+.copy-container span{
+color: #ff4a4a;
+}
+
+
+.middle {
+height: 400px;	
+}
+
+.middle h2{
+text-align:center;
+}
+
+.middle li{
+float: left;
+padding-left: 70px;
+}
+
+
+/* 111111111111111111111111111111111111111111111111111111111 */
+.mySlides01 h3{
+text-align:center;
+font-size: 17px;
+}
+
+.mySlides01 img{
+float: left;
+height: 200px;;
+}
+
+/* Caption text */
+.mySlides01 p{
+text-align: center;
+font-size: 13px;
+}
+
+
+
+/* 22222222222222222222222222222222222222222222*/
+.mySlides02 h3{
+text-align:center;
+font-size: 17px;
+}
+
+.mySlides02 img{
+float: left;
+height: 200px;
+}
+
+/* Caption text */
+.mySlides02 p{
+  text-align: center;
+font-size: 13px;
+}
+
+/*3333333333333333333333333333333333333333*/
+.mySlides03 h3{
+text-align:center;
+font-size: 17px;
+}
+
+.mySlides03 img{
+float: left;
+height: 200px;
+}
+
+/* Caption text */
+.mySlides03 p{
+  text-align: center;
+font-size: 13px;
+}
+
+
+/*444444444444444444444444444444444*/
+.mySlides04 h3{
+text-align:center;
+font-size: 17px;
+}
+
+.mySlides04 img{
+float: left;
+height: 200px;
+}
+
+/* Caption text */
+.mySlides04 p{
+  text-align: center;
+font-size: 13px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.footer{
+background-color: #2f5167;
+color:#fff;
+height: 60px;
+padding:40px;
+}
+
+.footer-logo{
+font-size: 32px;
+float:left;
+}
+
+.footer-logo a{
+text-decoration: none;
+color:#fff;
+}
+
+.footer-list{
+float:right;
+}
+
+.footer-list li{
+padding-bottom:20px;
+}	
+
+.footer-list a {
+text-decoration: none;
+color:#fff;
+}
